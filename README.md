@@ -1,6 +1,13 @@
 # Athketica
 In this project, you’ll use the commands you just learned to redirect files in Athletica, a sporting events directory.
 
+Redireecting Input and Output
+=
+
+Redirection is a feature in Linux such that when executing a command, you can change  the stadard input/output devices. The basic workflow of any Linux command is that it takes an input and give an output. 
+- The stadard input (stdin) device is the keyboard.
+- The standard output (stdout) device is the screen. 
+
 Task 
 =
 
