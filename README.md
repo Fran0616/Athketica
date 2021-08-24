@@ -4,9 +4,26 @@ In this project, you’ll use the commands you just learned to redirect files in
 Redireecting Input and Output
 =
 
-Redirection is a feature in Linux such that when executing a command, you can change  the stadard input/output devices. The basic workflow of any Linux command is that it takes an input and give an output. 
+Redirection is a feature in Linux such that when executing a command, you can change  the stadard input/output devices. The basic workflow of any Linux command is that it takes an input and give an output. It is similar but different from pipes, as it allows reading/writting from files instead of only commands. Redirecting can be done by using the operators `>` `>>`. 
 - The stadard input (stdin) device is the keyboard.
 - The standard output (stdout) device is the screen. 
+
+Cheetsheet
+= 
+
+Redirecting Output
+The `>` symbol is used to redirect output by taking the output from the command on the left and passing as input to the file on the right.
+
+```
+cho "Hello" > hello.txt
+```
+cat Display
+The shell command cat displays the contents of one or more files to the terminal.
+
+```
+$ cat poem.txt
+$ cat poem.txt kitties.txt
+```
 
 Task 
 =
