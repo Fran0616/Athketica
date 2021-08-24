@@ -12,12 +12,14 @@ Cheetsheet
 = 
 
 Redirecting Output
+
 The `>` symbol is used to redirect output by taking the output from the command on the left and passing as input to the file on the right.
 
 ```
 cho "Hello" > hello.txt
 ```
 cat Display
+
 The shell command cat displays the contents of one or more files to the terminal.
 
 ```
